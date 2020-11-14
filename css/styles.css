@@ -75,6 +75,7 @@ header nav ul {
 
 main {
   margin-top: 10vh;
+  max-width: 1000px;
 }
 
 #hero {
@@ -89,10 +90,138 @@ main {
 }
 
 #hero input[type='submit'] {
-  max-width: 150px;
-  width: 100%;
+  background-color: #f1c40f;
+  border: 0;
+  font-size: 1.2em;
   height: 30px;
   margin: 15px 0;
-  border: 0;
+  max-width: 150px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3vw;
+}
+
+#features h3 {
+  font-size: 1.25em;
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+}
+
+#features p {
+  font-size: 1.1em;
+}
+
+#how-it-works {
+  text-align: center;
+}
+
+#how-it-works iframe {
+  border-radius: 10px;
+  margin-bottom: 40px;
+  max-width: 560px;
+  width: 100%;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.card {
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  min-width: 300px;
+  text-align: center;
+  width: calc(100% / 3);
+}
+
+.card h3 {
+  background-color: #ddd;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 1em;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.card p {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.card ol {
+  list-style: none;
+  margin: 15px 0;
+  padding: 0;
+}
+
+.card ol li {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.btn {
   background-color: #f1c40f;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 400;
+  height: 40px;
+  margin: 15px 0;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+footer {
+  background-color: #ddd;
+  margin: 0;
+  margin-top: 30px;
+  max-width: 1000px;
+  padding: 10px;
+  width: 100%;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer > p {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
 }
