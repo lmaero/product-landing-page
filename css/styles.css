@@ -1,6 +1,25 @@
 html {
   box-sizing: border-box;
 }
+/* Smartphones, iPhone, Portrait 480x320 Phones */
+@media (min-width: 320px) {
+}
+
+/* Portrait Tablets, Portrait iPad, Landscape e-Readers, Landscape 800x480 or 854x480 Phones */
+@media (min-width: 641px) {
+}
+
+/* Tablet, Landscape iPad, lo-res Laptops ands Desktops */
+@media (min-width: 961px) {
+}
+
+/* Big Landscape Tablets, Laptops, and Desktops */
+@media (min-width: 1025px) {
+}
+
+/* Hi-Res Laptops and Desktops */
+@media (min-width: 1281px) {
+}
 
 *,
 *::before,
